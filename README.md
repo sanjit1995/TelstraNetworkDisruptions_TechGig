@@ -21,10 +21,10 @@ Different types of features are extracted from log files and other sources: even
 Note: “severity_type” is a feature extracted from the log files (in severity_type.csv). Often this is a severity type of a warning message coming from the log. "severity_type" is categorical. It does not have an ordering. “fault_severity” is a measurement of actual reported faults from users of the network and is the target variable (in train.csv).
 
 File descriptions
-train.csv - the training set for fault severity
-test.csv - the test set for fault severity
-sample_submission.csv - a sample submission file in the correct format
-event_type.csv - event type related to the main dataset
-log_feature.csv - features extracted from log files
-resource_type.csv - type of resource related to the main dataset
-severity_type.csv -  severity type of a warning message coming from the log
+-> train.csv - the training set for fault severity
+-> test.csv - the test set for fault severity
+-> sample_submission.csv - a sample submission file in the correct format
+-> event_type.csv - event type related to the main dataset
+-> log_feature.csv - features extracted from log files
+-> resource_type.csv - type of resource related to the main dataset
+-> severity_type.csv -  severity type of a warning message coming from the log
